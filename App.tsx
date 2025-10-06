@@ -77,49 +77,49 @@ function App() {
    }
     
   const styles = StyleSheet.create({
-  // --- App Container ---
+  
   appContainer: {
     flex: 1,
-    backgroundColor: '#1c1c1e', // Dark background for the whole app
+    backgroundColor: '#1c1c1e', 
   },
   formContainer: {
     margin: 16,
     padding: 8,
   },
 
-  // --- Typography ---
+  
   title: {
     fontSize: 32,
     fontWeight: '600',
-    marginBottom: 40, // Increased spacing
-    color: '#ffffff', // Set text color to white
+    marginBottom: 40, 
+    color: '#ffffff', 
   },
   subTitle: {
     fontSize: 26,
     fontWeight: '600',
     marginBottom: 2,
-    color: '#ffffff', // Set text color to white
+    color: '#ffffff', 
   },
   description: {
-    color: '#c7c7cc', // A slightly off-white for description
-    marginBottom: 24, // Increased margin for better spacing
+    color: '#c7c7cc', 
+    marginBottom: 24, 
   },
   heading: {
-    fontSize: 16, // Slightly larger for readability
-    color: '#ffffff', // Set text color to white
+    fontSize: 16, 
+    color: '#ffffff', 
     fontWeight: '500',
   },
   errorText: {
     fontSize: 12,
-    color: '#ff453a', // A red that is visible on a dark background for errors
+    color: '#ff453a', 
   },
 
-  // --- Input and Controls ---
+ 
   inputWrapper: {
-    marginBottom: 30, // Increased spacing
+    marginBottom: 30, 
     alignItems: 'center',
-    justifyContent: 'space-between', // Push label and input apart
-    flexDirection: 'row', // Align input to right
+    justifyContent: 'space-between',
+    flexDirection: 'row', 
   },
   inputColumn: {
     flexDirection: 'column',
@@ -128,26 +128,26 @@ function App() {
   },
   inputStyle: {
     padding: 10,
-    width: 90, // Adjusted width for right-corner alignment
+    width: 90,
     borderWidth: 1,
-    borderRadius: 4, // Less rounded corners
-    borderColor: '#555555', // Visible border for dark mode
+    borderRadius: 4, 
+    borderColor: '#555555', 
     color: '#ffffff',
     textAlign: 'center',
-    backgroundColor: '#1e1e1e', // added to match dark background
+    backgroundColor: '#1e1e1e', 
   },
 
-  // --- Switch / Checkbox Row ---
+  
   checkboxRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between', // label left, checkbox right
+    justifyContent: 'space-between', 
     marginBottom: 25,
   },
 
-  // --- Buttons ---
+
   formActions: {
-    flexDirection: 'column', // stack vertically
+    flexDirection: 'column', 
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 50,
@@ -174,7 +174,7 @@ function App() {
     fontSize: 16,
   },
 
-  // --- Result Card ---
+  
   card: {
     padding: 16,
     borderRadius: 8,
@@ -220,7 +220,7 @@ return (
          handleChange,
          handleSubmit,
          handleReset,
-         /* and other goodies */
+         
        }) => (
          <>
          <View style={styles.inputWrapper}>
